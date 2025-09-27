@@ -241,56 +241,13 @@ export default function PreMedicaLanding() {
         </div>
       </section>
 
-      {/* CONTACT */}
-      <section id="contact" className="relative bg-slate-950 py-20">
-        <div className="mx-auto max-w-6xl px-6 grid gap-10 md:grid-cols-2 items-start">
-          <div>
-            <h2 className="text-2xl md:text-4xl font-semibold">Contact us</h2>
-            <p className="mt-3 text-slate-400 max-w-xl">
-              Have a clinic or pilot in mind? Drop a line and we’ll follow up.
-            </p>
-          </div>
-          <form className="grid gap-3">
-            <input
-              placeholder="Your name"
-              className="h-11 rounded-xl bg-white/5 px-4 ring-1 ring-white/10 focus:outline-none focus:ring-2 focus:ring-cyan-400"
-            />
-            <input
-              type="email"
-              placeholder="Your email"
-              className="h-11 rounded-xl bg-white/5 px-4 ring-1 ring-white/10 focus:outline-none focus:ring-2 focus:ring-cyan-400"
-            />
-            <textarea
-              rows={5}
-              placeholder="How can we help?"
-              className="rounded-xl bg-white/5 p-4 ring-1 ring-white/10 focus:outline-none focus:ring-2 focus:ring-cyan-400"
-            />
-            <button
-              type="button"
-              className="h-11 rounded-xl bg-cyan-500/90 text-slate-950 font-medium hover:bg-cyan-400/90"
-            >
-              Send
-            </button>
-            <p className="text-xs text-slate-500">
-              By sending, you consent to being contacted about your inquiry.
-            </p>
-          </form>
-        </div>
-      </section>
-
       <Footer />
     </main>
   );
 }
 
 /* ============================ HERO ============================ */
-export function LampDemo({
-  title,
-  subtitle,
-}: {
-  title: string;
-  subtitle?: string;
-}) {
+function LampDemo({ title, subtitle }: { title: string; subtitle?: string }) {
   return (
     <LampContainer>
       <motion.h1
@@ -336,7 +293,7 @@ export function LampDemo({
   );
 }
 
-export const LampContainer: React.FC<{
+const LampContainer: React.FC<{
   children: React.ReactNode;
   className?: string;
 }> = ({ children, className }) => {
@@ -400,7 +357,7 @@ export const LampContainer: React.FC<{
 };
 
 /* ====================== DEMO SCROLL CARD ====================== */
-export const ContainerScroll: React.FC<{
+const ContainerScroll: React.FC<{
   titleComponent: React.ReactNode;
   children: React.ReactNode;
 }> = ({ titleComponent, children }) => {
@@ -471,7 +428,7 @@ const DemoCard: React.FC<{
 );
 
 /* ============================ TIMELINE ============================ */
-export const Timeline: React.FC<{
+const Timeline: React.FC<{
   data: { title: string; content: React.ReactNode }[];
 }> = ({ data }) => {
   const ref = useRef<HTMLDivElement | null>(null);
@@ -529,7 +486,7 @@ export const Timeline: React.FC<{
 };
 
 /* ===================== POINTER HIGHLIGHT (no arrow) ===================== */
-export function PointerHighlight({
+function PointerHighlight({
   children,
   rectangleClassName,
   containerClassName,
@@ -677,7 +634,7 @@ const IconBase = (p: React.SVGProps<SVGSVGElement>) => (
   />
 );
 
-export const IconCalendarCheck = (p: React.SVGProps<SVGSVGElement>) => (
+const IconCalendarCheck = (p: React.SVGProps<SVGSVGElement>) => (
   <IconBase {...p}>
     <rect x="3" y="4" width="18" height="18" rx="2" />
     <path d="M16 2v4M8 2v4M3 10h18" />
@@ -685,7 +642,7 @@ export const IconCalendarCheck = (p: React.SVGProps<SVGSVGElement>) => (
   </IconBase>
 );
 
-export const IconClipboardList = (p: React.SVGProps<SVGSVGElement>) => (
+const IconClipboardList = (p: React.SVGProps<SVGSVGElement>) => (
   <IconBase {...p}>
     <path d="M9 4h6a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H9a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2Z" />
     <path d="M9 4h6v2H9z" />
@@ -695,7 +652,7 @@ export const IconClipboardList = (p: React.SVGProps<SVGSVGElement>) => (
   </IconBase>
 );
 
-export const IconChartDots = (p: React.SVGProps<SVGSVGElement>) => (
+const IconChartDots = (p: React.SVGProps<SVGSVGElement>) => (
   <IconBase {...p}>
     <path d="M3 3v18h18" />
     <circle cx="7" cy="14" r="2" />
@@ -705,7 +662,7 @@ export const IconChartDots = (p: React.SVGProps<SVGSVGElement>) => (
   </IconBase>
 );
 
-export const IconReportMedical = (p: React.SVGProps<SVGSVGElement>) => (
+const IconReportMedical = (p: React.SVGProps<SVGSVGElement>) => (
   <IconBase {...p}>
     <path d="M8 2h6l3 3v15a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z" />
     <path d="M14 2v5h5" />

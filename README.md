@@ -1,30 +1,25 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 PreMedica - Product Landing Page
 
-## Getting Started
+A sleek, conversion-focused landing page designed to introduce **PreMedica** (A Smart Physiotherapy Pre-Assessment Platform) to healthcare providers, clinics, and hospitals. The page clearly explains the value proposition, how the system works, and provides an interactive preview of the product.
 
-First, run the development server:
+**🔗 [View Live Demo](https://premdica.info/)**
 
-```bash
-pnpm dev
-```
+## ✨ Highlights
+* **🎯 Clear Value Proposition:** Explains the core benefits of PreMedica (Digital Health Intake & Triage Tool).
+* **📱 Fully Responsive:** Optimized for Mobile, Tablet, and Desktop viewing to ensure accessibility for busy healthcare professionals.
+* **🔄 Interactive Demo Preview:** Features an embedded, interactive form to give potential clients a hands-on feel of the patient questionnaire.
+* **⚡ Modern UI/UX:** Clean, professional aesthetic suitable for the HealthTech industry.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠️ Tech Stack
+* **Frontend:** React.js (or Next.js) / Tailwind CSS / HTML5 / CSS3
+* **Features:** Responsive Design, Smooth Animations, Interactive UI elements.
+* **Deployment:** Vercel (or your preferred hosting)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📸 Desktop & Mobile View
+<p align="center">
+ <img width="1426" height="803" alt="image" src="https://github.com/user-attachments/assets/c2377a5f-0dbc-4433-924c-a959b81d85a4" />
+ <img width="1440" height="768" alt="image" src="https://github.com/user-attachments/assets/dfe50634-3ccd-46fe-b487-32d43f3f022a" />
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+  <img src="ضع_رابط_صورة_شاشة_الجوال_هنا" width="25%" />
+</p>

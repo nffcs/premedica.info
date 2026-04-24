@@ -2,7 +2,7 @@
 
 A sleek, conversion-focused landing page designed to introduce **PreMedica** (A Smart Physiotherapy Pre-Assessment Platform) to healthcare providers, clinics, and hospitals. The page clearly explains the value proposition, how the system works, and provides an interactive preview of the product.
 
-**🔗 [View Live Demo](https://premdica.info/)**
+**🔗 [View Live ](https://premdica.info/)**
 
 ## ✨ Highlights
 * **🎯 Clear Value Proposition:** Explains the core benefits of PreMedica (Digital Health Intake & Triage Tool).
